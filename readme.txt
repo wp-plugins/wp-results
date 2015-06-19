@@ -3,7 +3,7 @@ Contributors: gdurtan
 Tags: dislpay lists, display posts, display post types, display meta values
 Requires at least: 3.1
 Tested up to: 4.2
-Stable tag: 0.0.1
+Stable tag: 0.0.2
 License: GPLv2 or later
 
 Results - Display lists returned by wp query in widgets. Easly and customisable!

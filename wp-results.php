@@ -5,7 +5,7 @@ Plugin URI: https://github.com/dadmor/Results
 Description: Display wp query on frontend as templated lists
 Author: gdurtan
 Author URI: https://pl.linkedin.com/pub/grzegorz-durtan/11/b74/296
-Version: 0.0.1
+Version: 0.0.2
 License: GPL2
 */
 
