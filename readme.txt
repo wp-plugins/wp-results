@@ -30,4 +30,6 @@ Upload the Results plugin to your blog, Activate it. Find it on widgets page.
 
 1. Activate and display results list
 
+2. Change display of listed elements with WordPress customizer
+
 
