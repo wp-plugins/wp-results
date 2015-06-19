@@ -1,0 +1,44 @@
+.wp_list{
+	display:table;
+	width:100%;
+}
+.wp_list_header{
+	display: table-row;
+	background-color:rgba(0,0,0,0.05);
+	
+}
+.wp_list_header_cell{
+	display: table-cell;
+	padding:20px 5px;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.wp_list_row{
+	display: table-row;
+	
+}
+.wp_list_cell{
+	display: table-cell;
+	padding:20px 5px;
+}
+.color_row{
+	background-color:rgba(0,0,0,0.03);
+}
+
+/* ---- */
+
+.list-widget-title{
+	line-height: 20px;
+}
+
+/* ---- */
+
+.post-featured-image{
+	float: left;
+}
+.entry-content .tags a{
+	font-size:12px;
+}
+.entry-content .tags{
+	margin-top:-10px;
+	margin-bottom:10px;
+}
