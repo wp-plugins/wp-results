@@ -1,3 +1,17 @@
+/* -- Filters -- */
+select{
+	padding: 4px 5px 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 14px;
+	background-color: #efefef;
+}
+button{
+	font-size: 24px !important;
+	padding: 11px 20px !important;
+}
+
+/* -- lists -- */
 .wp_list{
 	display:table;
 	width:100%;

@@ -14,7 +14,7 @@
 
 			<?php while ( have_posts() ) : the_post(); $theID = $post->ID; ?>
 
-			    <?php $VT->get_template_part( get_theme_mod( 'font_name' ) ); ?>
+			    <?php $VT->get_template_part( get_theme_mod( 'content_part_'.$VT -> tfname ) ); ?>
 
 			<?php endwhile; ?>
 

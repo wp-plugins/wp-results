@@ -1,0 +1,37 @@
+{
+	"type": "array",
+    "items": {
+        "title": "Template hierarchy file",
+        "type": "object",
+        "properties": {
+            "label": {
+               "title": "Filter item display name", 
+               "type": "string"  
+            },
+            "format": {
+               "title": "Filter item display name", 
+               "enum": ["select", "text", "check"]
+            },
+            "type": {
+               "title": "Filter method type", 
+               "type": "string",
+               "enum": ["meta_query", "tax_query", "search_query"],
+               "required": true
+            },
+            "key": {
+              "title": "Select meta key",
+              "dependencies": "type"
+            },
+            "tax_name": {
+               "title": "Select your taxonomy",
+               "dependencies": "type"
+            },
+            "field": {
+               "title": "Select taxonomy data type", 
+               "default": "term_id",
+               "readonly": true,
+               "dependencies": "type"
+            }
+        }
+    } 
+}

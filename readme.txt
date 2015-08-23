@@ -23,6 +23,11 @@ Upload the Results plugin to your blog, Activate it. Find it on widgets page.
 1, 2, 3: You're done!
 
 == Changelog ==
+= 0.0.2 =
+* add grid creator.
+* add search and filter widget.
+* integrate with wp-columns.
+
 = 0.0.1 =
 * initial commit, files and templates.
 

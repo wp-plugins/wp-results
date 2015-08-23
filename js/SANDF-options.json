@@ -1,0 +1,39 @@
+{
+    "fields": {
+        "item": {
+            "fields": {
+                "format": {
+                    "type": "select",
+                    "removeDefaultNone": true  
+                },
+                "type": {
+                     "type": "select",
+                    "optionLabels": ["Filter by meta data", "Filter by taxonomy", "Search filter"]
+                    
+                }, 
+                "key": {
+                    "type": "select",
+                    "dataSource": "/work-portal-basic/wp-result/post-metas/",
+                    "removeDefaultNone": true,
+                    "dependencies": {
+                        "type": "meta_query"
+                    }  
+                },
+                "tax_name": {
+                    "type": "select",
+                    "dataSource": "/work-portal-basic/wp-result/taxonomies/",
+                    "removeDefaultNone": true,
+                    "dependencies": {
+                        "type": "tax_query"
+                    }   
+                },
+                "field": {
+                  "data" : {"name":"field", "value":"xxx"},
+                  "dependencies": {
+                        "type": "tax_query"
+                    }  
+                }
+            }
+        }
+    }      
+}
