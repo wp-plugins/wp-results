@@ -2,8 +2,8 @@
 Contributors: gdurtan
 Tags: dislpay lists, display posts, display post types, display meta values
 Requires at least: 3.1
-Tested up to: 4.2
-Stable tag: 0.0.2
+Tested up to: 4.3
+Stable tag: 0.0.5
 License: GPLv2 or later
 
 Results - Display lists returned by wp query in widgets. Easly and customisable!
@@ -23,6 +23,13 @@ Upload the Results plugin to your blog, Activate it. Find it on widgets page.
 1, 2, 3: You're done!
 
 == Changelog ==
+= 0.0.5 =
+* upgrade grid creator
+* integration with alpacajs forms
+* add alpacajs form creator
+* add rest api
+* add virtual templates and some new static templates
+
 = 0.0.2 =
 * add grid creator.
 * add search and filter widget.
